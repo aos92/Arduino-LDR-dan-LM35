@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "author": "Asep Oman Somantri",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-nano", "id": "nano", "top": 0, "left": 0, "attrs": {} },
+    {
+      "type": "wokwi-photoresistor-sensor",
+      "id": "ldr1",
+      "top": -75.2,
+      "left": 0.16,
+      "attrs": {}
+    },
+    {
+      "type": "chip-LM35",
+      "id": "chip1",
+      "top": -244.51,
+      "left": 31.59,
+      "rotate": 180,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-photoresistor-sensor",
+      "id": "ldr2",
+      "top": -166.32,
+      "left": -0.52,
+      "attrs": {}
+    }
+  ],
+  "connections": [
+    [ "nano:GND.1", "ldr1:GND", "black", [ "v13.85", "h53.11", "v-125.92", "h-5.89" ] ],
+    [ "ldr1:VCC", "nano:5V", "red", [ "h34.66", "v142.06", "h-81.29", "v-1.46" ] ],
+    [
+      "ldr1:AO",
+      "nano:A0",
+      "gold",
+      [ "h42.72", "v-0.06", "h1.6", "v120.04", "h-167.84", "v-2.29" ]
+    ],
+    [ "nano:A1", "ldr2:AO", "blue", [ "v35.37", "h166.45", "v-217.51", "h-5.55" ] ],
+    [ "ldr1:GND", "ldr2:GND", "black", [ "h27.74", "v-90.56", "h8.71" ] ],
+    [ "ldr2:GND", "chip1:GND", "black", [ "h27.46", "v-95.64", "h12.86" ] ],
+    [ "ldr1:VCC", "ldr2:VCC", "red", [ "h35.91", "v-91.99", "h8.68" ] ],
+    [ "nano:A2", "chip1:OUT", "green", [ "v41.5", "h166.09", "v-330.07", "h-10.63" ] ],
+    [ "ldr2:VCC", "chip1:VCC", "red", [ "h39.14", "v-65.57", "h1.61" ] ]
+  ],
+  "dependencies": {}
+}

@@ -1,0 +1,23 @@
+Dalam proses.....
+
+Studi Korelasi antara Intensitas Cahaya dan Suhu pada Kinerja Sistem Energi Surya
+
+Deskripsi Penelitian: 
+Penelitian ini bertujuan untuk menginvestigasi hubungan antara intensitas cahaya matahari (diukur dengan sensor LDR) dan suhu lingkungan (diukur dengan sensor LM35) terhadap kinerja sistem energi surya. Fokus penelitian ini adalah memahami bagaimana perubahan intensitas cahaya matahari dapat mempengaruhi suhu lingkungan di sekitar panel surya dan bagaimana hal ini berdampak pada produksi energi surya.
+
+Metodologi:
+- Pemilihan Lokasi dan Penempatan Sensor: Pilihlah lokasi yang memiliki sumber cahaya matahari yang stabil dan amati secara berkala selama periode penelitian. Pasang sensor LDR dan LM35 pada lokasi yang strategis, seperti di atas panel surya dan di sekitar lingkungan panel surya.
+
+- Pengukuran Intensitas Cahaya dan Suhu: Lakukan pengukuran intensitas cahaya matahari dan suhu lingkungan pada waktu-waktu tertentu, seperti setiap jam atau per lima menit, selama periode penelitian yang ditentukan.
+
+- Monitoring Produksi Energi Surya: Selama periode pengukuran, catat produksi energi surya yang dihasilkan oleh panel surya.
+
+- Analisis Data: Analisislah data yang telah dikumpulkan untuk mengetahui korelasi antara intensitas cahaya matahari, suhu lingkungan, dan produksi energi surya. Cari pola dan hubungan yang mungkin terjadi di antara variabel-variabel ini.
+
+- Kesimpulan dan Implikasi: Buat kesimpulan berdasarkan hasil analisis data. Apakah ada korelasi yang signifikan antara intensitas cahaya matahari dan suhu lingkungan? Bagaimana korelasi ini mempengaruhi produksi energi surya?
+
+Manfaat Potensial Penelitian: 
+Hasil penelitian ini dapat memberikan pemahaman lebih mendalam tentang korelasi antara intensitas cahaya matahari dan suhu lingkungan terhadap kinerja sistem energi surya. Penelitian ini juga dapat membantu meningkatkan efisiensi dan kinerja panel surya dengan memahami cara optimal untuk menangani perubahan cahaya alami dan suhu lingkungan.
+
+
+
