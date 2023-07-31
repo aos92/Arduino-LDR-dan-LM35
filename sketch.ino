@@ -1,4 +1,6 @@
 // V 0.09
+// https://github.com/aos92/Arduino-LDR-dan-LM35
+// https://wokwi.com/projects/371738548361828353
 
 // Pin
 const int pinLDR1 = A0; // Sensor LDR pertama
